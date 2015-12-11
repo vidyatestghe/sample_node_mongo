@@ -29,3 +29,5 @@ after_script:
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
 
 build_image: drydock/u14nodpls:tip 
+
+archive: true
